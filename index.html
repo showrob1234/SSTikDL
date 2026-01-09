@@ -11,8 +11,8 @@
     <title>SSTikDL - TikTok Video & Photo Downloader Without Watermark | Download TikTok HD MP4 Free</title>
     
     <!-- Primary SEO Meta Tags -->
-    <meta name="description" content="SSTikDL is the #1 Free TikTok Video & Photo Downloader. Download TikTok videos, photos, stories without watermark in HD quality. Save TikTok MP4, MP3 audio instantly. No registration required. Fast, free, and secure TikTok downloader online.">
-    <meta name="keywords" content="SSTikDL, sstikdl, tiktok video downloader, tiktok photo downloader, tiktok image downloader, tiktok story downloader, tiktok downloader, download tiktok video, tiktok video download without watermark, tiktok mp4 download, tiktok hd download, tiktok no watermark, save tiktok video, tiktok mp3 download, tiktok audio download, snaptik, ssstik, tikmate, tiktok saver, download video tiktok, tiktok download online, free tiktok downloader, tiktok video saver, tiktok downloader hd, tiktok downloader online free, best tiktok downloader, tiktok downloader no watermark free, tiktok video downloader app, download tiktok tanpa watermark, descargar video tiktok, tiktok video indirme, скачать видео тикток, tiktok slideshow download, tiktok carousel download">
+    <meta name="description" content="SSTikDL is the #1 Free TikTok Video & Photo Downloader. sss tiktok. Download TikTok videos, photos, stories without watermark in HD quality. Save TikTok MP4, MP3 audio instantly. No registration required. Fast, free, and secure TikTok downloader online.">
+    <meta name="keywords" content="SSTikDL, sstikdl, sss tiktok, ssstiktok, tiktok video download, tiktok video downloader, tiktok photo downloader, tiktok image downloader, tiktok story downloader, tiktok downloader, download tiktok video, tiktok video download without watermark, tiktok mp4 download, tiktok hd download, tiktok no watermark, save tiktok video, tiktok mp3 download, tiktok audio download, snaptik, ssstik, tikmate, tiktok saver, download video tiktok, tiktok download online, free tiktok downloader, tiktok video saver, tiktok downloader hd, tiktok downloader online free, best tiktok downloader, tiktok downloader no watermark free, tiktok video downloader app, download tiktok tanpa watermark, descargar video tiktok, tiktok video indirme, скачать видео тикток, tiktok slideshow download, tiktok carousel download">
     <meta name="author" content="SSTikDL">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     <meta name="googlebot" content="index, follow">
@@ -86,7 +86,7 @@
     <meta name="twitter:creator" content="@sstikdl">
     
     <!-- Google Search Console Verification - ADD YOUR CODE HERE -->
-    <meta name="google-site-verification" content="YOUR_GOOGLE_VERIFICATION_CODE_HERE">
+    <meta name="google-site-verification" content="JpG_xLquWixq38gIszRZ1Vg8xI8YOmb0K33hFd8qR0g">
     
     <!-- Bing Webmaster Verification -->
     <meta name="msvalidate.01" content="YOUR_BING_VERIFICATION_CODE_HERE">
@@ -2098,7 +2098,7 @@
                     
                     <div class="content-card">
                         <h2><i class="fas fa-history"></i> Our Story</h2>
-                        <p>Founded in 2024, SSTikDL started as a simple video downloader and evolved to support all TikTok content types. Today, we serve millions of users worldwide with over 18 million downloads processed.</p>
+                        <p>Founded in 2025, SSTikDL started as a simple video downloader and evolved to support all TikTok content types. Today, we serve millions of users worldwide with over 18 million downloads processed.</p>
                     </div>
                     
                     <div class="about-stats-grid">
@@ -4240,7 +4240,7 @@
             <div class="footer-bottom">
                 <div class="footer-bottom-content">
                     <p class="copyright">
-                        &copy; 2024-2025 <a href="https://sstikdl.top">SSTikDL</a>. All rights reserved.
+                        &copy; 2026 <a href="https://sstikdl.top">SSTikDL</a>. All rights reserved.
                     </p>
                     <p class="disclaimer-text">
                         SSTikDL is not affiliated with TikTok or ByteDance Ltd. All trademarks belong to their respective owners.
@@ -4520,141 +4520,163 @@
 
     <!-- ==================== COMPLETE JAVASCRIPT ==================== -->
     <script>
-    (function() {
-        'use strict';
+(function() {
+    'use strict';
 
-        // ==================== SOURCE CODE PROTECTION ====================
-        // Disable right-click context menu
-        document.addEventListener('contextmenu', function(e) {
-            e.preventDefault();
-            showProtectionAlert();
-            return false;
-        });
+    // ==================== SMART PROTECTION ====================
+    
+    // 1. Detect suspicious referrers (view-source websites)
+    const blockedReferrers = [
+        'view-page-source.com',
+        'viewsource.net',
+        'neatnik.net',
+        'view-source.com',
+        'source-code.com',
+        'htmlviewer.net',
+        'codebeautify.org/source-viewer'
+    ];
 
-        // Disable keyboard shortcuts for viewing source
-        document.addEventListener('keydown', function(e) {
-            // F12
-            if (e.key === 'F12' || e.keyCode === 123) {
-                e.preventDefault();
-                showProtectionAlert();
-                return false;
-            }
-            // Ctrl+Shift+I, Ctrl+Shift+J, Ctrl+Shift+C
-            if (e.ctrlKey && e.shiftKey && ['I', 'i', 'J', 'j', 'C', 'c', 'K', 'k', 'E', 'e'].includes(e.key)) {
-                e.preventDefault();
-                showProtectionAlert();
-                return false;
-            }
-            // Ctrl+U (View Source)
-            if (e.ctrlKey && (e.key === 'U' || e.key === 'u')) {
-                e.preventDefault();
-                showProtectionAlert();
-                return false;
-            }
-            // Ctrl+S (Save Page)
-            if (e.ctrlKey && (e.key === 'S' || e.key === 's')) {
-                e.preventDefault();
-                showProtectionAlert();
-                return false;
-            }
-        });
-
-        // Disable text selection except in input fields
-        document.addEventListener('selectstart', function(e) {
-            if (!['INPUT', 'TEXTAREA'].includes(e.target.tagName)) {
-                e.preventDefault();
-                return false;
-            }
-        });
-
-        // Disable drag
-        document.addEventListener('dragstart', function(e) {
-            e.preventDefault();
-            return false;
-        });
-
-        // Disable copy except in input fields
-        document.addEventListener('copy', function(e) {
-            if (!['INPUT', 'TEXTAREA'].includes(e.target.tagName)) {
-                e.preventDefault();
-                showProtectionAlert();
-                return false;
-            }
-        });
-
-        // DevTools detection
-        let devtoolsOpen = false;
-        const threshold = 160;
+    // Check if accessed via blocked referrer
+    if (document.referrer) {
+        const blocked = blockedReferrers.some(domain => 
+            document.referrer.toLowerCase().includes(domain)
+        );
         
-        setInterval(function() {
-            const widthThreshold = window.outerWidth - window.innerWidth > threshold;
-            const heightThreshold = window.outerHeight - window.innerHeight > threshold;
-            if ((widthThreshold || heightThreshold) && !devtoolsOpen) {
-                devtoolsOpen = true;
-                console.clear();
-                console.log('%c⚠️ WARNING!', 'color: red; font-size: 50px; font-weight: bold;');
-                console.log('%cThis source code is protected by SSTikDL.', 'color: orange; font-size: 18px;');
-                console.log('%c© 2024-2025 SSTikDL - https://sstikdl.top', 'color: #25f4ee; font-size: 12px;');
-            } else if (!widthThreshold && !heightThreshold) {
-                devtoolsOpen = false;
-            }
-        }, 1000);
-
-        // Block iframe embedding
-        if (window.top !== window.self) {
-            try {
-                if (!document.referrer.includes('sstikdl.top')) {
-                    window.top.location = window.self.location;
-                }
-            } catch (e) {
-                document.body.innerHTML = '<h1 style="color:#fe2c55;text-align:center;padding:50px;">Access Denied - Visit sstikdl.top directly</h1>';
-            }
-        }
-
-        // Block view-source websites
-        if (document.referrer.includes('view-page-source.com') || 
-            document.referrer.includes('viewsource.net') ||
-            document.referrer.includes('neatnik.net') ||
-            window.location.protocol === 'view-source:') {
-            document.body.innerHTML = '';
-            window.location.href = 'https://sstikdl.top';
-        }
-
-        function showProtectionAlert() {
-            let alertBox = document.getElementById('protectionAlert');
-            if (alertBox) return;
-            
-            alertBox = document.createElement('div');
-            alertBox.id = 'protectionAlert';
-            alertBox.innerHTML = `
-                <div style="position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.9);z-index:99998;"></div>
-                <div style="position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);background:linear-gradient(135deg,#161823,#1a1a2e);padding:40px;border-radius:20px;z-index:99999;text-align:center;border:2px solid rgba(254,44,85,0.5);box-shadow:0 20px 60px rgba(0,0,0,0.5),0 0 40px rgba(254,44,85,0.3);max-width:90%;width:400px;">
-                    <div style="font-size:4rem;margin-bottom:20px;">🔒</div>
-                    <h3 style="color:#fe2c55;margin-bottom:15px;font-size:1.5rem;">Source Code Protected</h3>
-                    <p style="color:#a8a8aa;font-size:1rem;line-height:1.6;margin-bottom:20px;">This website's source code is protected. Viewing, copying, or stealing the source code is not allowed.</p>
-                    <p style="color:#25f4ee;font-size:0.9rem;">© SSTikDL.top</p>
-                </div>
+        if (blocked) {
+            // Replace entire page with warning
+            document.documentElement.innerHTML = `
+                <html><head><title>Access Blocked</title></head>
+                <body style="margin:0;padding:0;height:100vh;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#161823,#1a1a2e);font-family:Arial,sans-serif;">
+                    <div style="text-align:center;color:white;max-width:500px;padding:40px;">
+                        <div style="font-size:100px;margin-bottom:20px;">⛔</div>
+                        <h1 style="color:#fe2c55;margin-bottom:20px;">Access Denied</h1>
+                        <p style="color:#a8a8aa;font-size:18px;line-height:1.6;">This website cannot be viewed through source code viewers.</p>
+                        <p style="margin-top:30px;"><a href="https://sstikdl.top" style="color:#25f4ee;text-decoration:none;font-size:20px;">Visit: sstikdl.top</a></p>
+                    </div>
+                </body></html>
             `;
-            document.body.appendChild(alertBox);
-            
-            setTimeout(function() {
-                if (alertBox && alertBox.parentNode) {
-                    alertBox.parentNode.removeChild(alertBox);
-                }
-            }, 3000);
-            
-            alertBox.addEventListener('click', function() {
-                if (alertBox && alertBox.parentNode) {
-                    alertBox.parentNode.removeChild(alertBox);
-                }
-            });
+            throw new Error('Access blocked');
         }
+    }
 
-        // Console branding
-        console.log('%c SSTikDL ', 'background: linear-gradient(135deg, #fe2c55, #25f4ee); color: white; font-size: 24px; font-weight: bold; padding: 10px 20px; border-radius: 8px;');
-        console.log('%c TikTok Video & Photo Downloader ', 'color: #25f4ee; font-size: 14px;');
-        console.log('%c https://sstikdl.top ', 'color: #fe2c55; font-size: 12px;');
-    })();
+    // 2. Detect if opened in iframe (view-source sites use this)
+    if (window.top !== window.self) {
+        try {
+            // Allow only same domain iframes
+            if (!document.referrer.includes(window.location.hostname)) {
+                window.top.location = window.self.location;
+            }
+        } catch (e) {
+            document.body.innerHTML = '<h1 style="color:#fe2c55;text-align:center;padding:100px;">⛔ Direct access only</h1>';
+        }
+    }
+
+    // 3. Detect view-source protocol
+    if (window.location.protocol === 'view-source:') {
+        document.documentElement.innerHTML = '';
+        window.location.href = 'https://sstikdl.top';
+    }
+
+    // 4. Obfuscate sensitive parts (make harder to copy)
+    // Add random comments in code sections
+    function addObfuscation() {
+        const scripts = document.querySelectorAll('script');
+        scripts.forEach(function(script) {
+            if (script.src === '') { // inline scripts only
+                const randomComment = '/*' + Math.random().toString(36) + '*/';
+                script.textContent = randomComment + script.textContent + randomComment;
+            }
+        });
+    }
+
+    // 5. Disable right-click ONLY on non-input elements
+    document.addEventListener('contextmenu', function(e) {
+        // Allow right-click on inputs, textareas, and contenteditable
+        if (['INPUT', 'TEXTAREA'].includes(e.target.tagName) || 
+            e.target.isContentEditable) {
+            return true;
+        }
+        e.preventDefault();
+        return false;
+    });
+
+    // 6. Disable text selection EXCEPT input fields
+    document.addEventListener('selectstart', function(e) {
+        if (['INPUT', 'TEXTAREA'].includes(e.target.tagName) || 
+            e.target.isContentEditable) {
+            return true;
+        }
+        e.preventDefault();
+        return false;
+    });
+
+    // 7. Block certain keyboard shortcuts (but allow Ctrl+C/V in inputs)
+    document.addEventListener('keydown', function(e) {
+        // F12 - DevTools
+        if (e.key === 'F12' || e.keyCode === 123) {
+            e.preventDefault();
+            return false;
+        }
+        
+        // Ctrl+Shift+I/J/C - DevTools
+        if (e.ctrlKey && e.shiftKey && ['I','i','J','j','C','c'].includes(e.key)) {
+            e.preventDefault();
+            return false;
+        }
+        
+        // Ctrl+U - View Source
+        if (e.ctrlKey && (e.key === 'U' || e.key === 'u')) {
+            e.preventDefault();
+            return false;
+        }
+        
+        // Allow Ctrl+C, Ctrl+V, Ctrl+X in input fields
+        if (['INPUT', 'TEXTAREA'].includes(document.activeElement.tagName)) {
+            if (e.ctrlKey && ['C','c','V','v','X','x','A','a'].includes(e.key)) {
+                return true; // Allow copy/paste in inputs
+            }
+        }
+    });
+
+    // 8. DevTools detection
+    let devtoolsOpen = false;
+    const element = new Image();
+    Object.defineProperty(element, 'id', {
+        get: function() {
+            devtoolsOpen = true;
+            throw new Error('DevTools detected');
+        }
+    });
+
+    setInterval(function() {
+        devtoolsOpen = false;
+        console.clear();
+        console.dir(element);
+        if (devtoolsOpen) {
+            console.clear();
+            // Optional: redirect or show warning
+        }
+    }, 1000);
+
+    // 9. Dynamic content loading (makes it harder to grab complete source)
+    window.addEventListener('load', function() {
+        // Move critical CSS inline dynamically
+        const styles = Array.from(document.querySelectorAll('style'));
+        styles.forEach(function(style, index) {
+            if (index > 0) { // Keep first style tag, move others
+                const newStyle = document.createElement('style');
+                newStyle.textContent = style.textContent;
+                document.head.appendChild(newStyle);
+                style.remove();
+            }
+        });
+    });
+
+    // 10. Watermark the code (anyone copying will have traces)
+    console.log('%c⚠️ CODE FINGERPRINT: ' + btoa(Date.now() + navigator.userAgent), 
+                'color:red;font-size:20px;font-weight:bold;');
+
+})();
 
     // ==================== CONFIGURATION ====================
     const CONFIG = {
